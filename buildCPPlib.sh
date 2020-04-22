@@ -1,0 +1,2 @@
+cd lib
+g++ -I"/usr/lib/jvm/java-8-openjdk-amd64/include" -I"/usr/lib/jvm/java-8-openjdk-amd64/include/linux" -fPIC sources/JNICreateRandomSubGraph.cpp -shared -o randSubGraph.so -Wl,-soname -Wl,--no-whole-archive
