@@ -1,0 +1,21 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: CreatorRandomSubGraph
+Built-By: anka
+Bundle-ManifestVersion: 2
+Bnd-LastModified: 1589720980199
+Import-Package: org.cytoscape.app;version="[3.0,4)",org.cytoscape.appl
+ ication;version="[3.0,4)",org.cytoscape.application.swing;version="[3
+ .0,4)",org.cytoscape.event;version="[3.0,4)",org.cytoscape.model;vers
+ ion="[3.0,4)",org.cytoscape.model.subnetwork;version="[3.0,4)",org.cy
+ toscape.service.util;version="[3.0,4)",org.cytoscape.view.layout;vers
+ ion="[3.0,4)",org.cytoscape.view.model;version="[3.0,4)",org.cytoscap
+ e.view.vizmap;version="[3.0,4)",org.cytoscape.work;version="[3.0,4)",
+ org.osgi.framework;version="[1.5,2)"
+Tool: Bnd-1.15.0
+Bundle-Name: Create Random SubNetwork
+Bundle-Version: 1.2
+Ignore-Package: org.scijava.nativelib
+Bundle-Activator: anka.myapp.internal.CyActivator
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_252
+
